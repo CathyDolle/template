@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Neue Montreal';
+    color: white;
+    overflow-x: hidden;
+    /* Hide scrollbars */
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('./../fonts/NeueMontreal-Regular.woff2') format('woff2'),
+        url('./../fonts/NeueMontreal-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gallery Modern';
+    src: url('./../fonts/GalleryModernRegular.woff2') format('woff2'),
+        url('./../fonts/GalleryModernRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Library */
+
+h1,
+h2 {
+    font-family: 'Gallery Modern';
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 100;
+    margin: 0;
+
+    @media (max-width: 800px) {
+        font-size: 60px;
+    }
+}
+
+h3 {
+    font-family: 'Gallery Modern';
+    font-size: 32px;
+    font-weight: 100;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Gallery Modern';
+    font-size: 24px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.8;
+}
